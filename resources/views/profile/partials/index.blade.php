@@ -84,6 +84,7 @@
                 </div>
 
                 <div class="col-12 col-xl-4">
+                    @role('admin')
                     <div class="card card-plain h-100">
                         <div class="card-header pb-0 p-3">
                             <h6 class="mb-0">Eliminar Cuenta</h6>
@@ -92,6 +93,7 @@
                             @include('profile.partials.delete-user-form')
                         </div>
                     </div>
+                    @endrole
                 </div>
             </div>
         </div>
